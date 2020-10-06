@@ -6,6 +6,7 @@ namespace MyFirstProject
     {
         static void Main(string[] args)
         {
+            QuizHint.Run();
             
         }
 
