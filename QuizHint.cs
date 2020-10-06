@@ -22,13 +22,13 @@ namespace MyFirstProject
         int decimalNumber = Convert.ToInt32(givenAge);
 
         //ticket price vs age
-        if (convertedAge < 5){
+        if (convertedAge <= 5){
             ticketPrice = 0.00m;
             }
-        else if (convertedAge > 5 && convertedAge < 14){
+        else if (convertedAge > 5 && convertedAge <=14){
             ticketPrice = 7.99m;
             }
-        else if (convertedAge >14 && convertedAge < 65){
+        else if (convertedAge > 14 && convertedAge <=65){
             ticketPrice = 11.99m;
             }
         else if (convertedAge > 65){
