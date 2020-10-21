@@ -6,14 +6,14 @@ namespace MyFirstProject
     {
     public static void Run() {
 
-    Console.WriteLine("Please enter first number: ");
-        
-    string input1 = Console.ReadLine();
-    //int x = input; 
-    Console.WriteLine("Please enter second number: ");
-    string input2 = Console.ReadLine();
+Console.WriteLine("Please enter first number: ");
+    
+string input1 = Console.ReadLine();
+//int x = input; 
+Console.WriteLine("Please enter second number: ");
+string input2 = Console.ReadLine();
 
-    int x=Int32.Parse(input1);
+int x=Int32.Parse(input1);
     int y=Int32.Parse(input2);; 
     int sum = 0;
 
